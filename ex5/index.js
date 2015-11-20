@@ -22,8 +22,7 @@ fs.writeFile("list.txt", str, function(err) {
 // });
 
 
-// TODO finir partie 2 en vérifiant si fichier existe
-// fs.stat
+
 fs.stat("list2.txt", function(err, stat){
   if(err==null){
     console.log("file exist");
@@ -42,7 +41,7 @@ fs.stat("list2.txt", function(err, stat){
 function updateFile(fileExist) {
   fs.readFile("list2.txt",'utf8' ,function(err, data) {
       if (err) throw err;
-        if(fileExist && list[2]) str = data + "\n" + list.join('\n');
+        if(fileExist) str = data + "\n" + list.join('\n');
         else str = list.join('\n');
         console.log("fichier lu");
 
