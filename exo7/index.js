@@ -1,6 +1,5 @@
 // hello world dans une page web (server)
 var http = require('http');
-var url = require('url');
 var fs = require("fs");
 
 var routes = {
