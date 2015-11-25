@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+header{
+  background: grey;
+  color: white;
+  padding: 50px;
+}
+
+#restoList li{
+  
+}

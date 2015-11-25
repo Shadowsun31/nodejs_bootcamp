@@ -1,0 +1,30 @@
+db.restaurants.insert(
+  {
+    name:"Bobby la pointe",
+    address:{
+      street:"rue de la marelle",
+      number:230,
+      city:"Bruxelles",
+      zip:"1000"
+    },
+    phone:"00562562562",
+    web:"http://www.bruxelles.be",
+    types:["français"],
+    rating:4
+  }
+);
+
+
+{
+  "name":"bll la pointe",
+  "address":{
+    "street":"rue de la marelle",
+    "number":230,
+    "city":"Bruxelles",
+    "zip":"1000"
+  },
+  "phone":"00562562562",
+  "web":"http://www.bruxelles.be",
+  "types":["français"],
+  "rating":4
+}
